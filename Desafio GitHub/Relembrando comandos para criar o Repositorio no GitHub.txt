@@ -1,0 +1,29 @@
+Relembrando comandos do Git/GitHub para criar seu Repositorio
+
+- Como criar seu repositorio
+	- Dentro do seu Git/GitHub vamos em Repositories
+	- Depois clicamos no botão NEW
+	- Em Repository Name - Definimos um nome
+	- Em Description - Vamos colocar a descrição do Repositorio
+	- Temos a opção de já colocar o README caso queira
+	- Depois damos um Create Repository
+- Com Repositorio criado vamos copiar para nossa maquina
+	- No botão CODE copie o link HTTPS
+	- Crie uma pasta na sua maquina onde será copiado a pasta do Repositorio
+	- Dentro da pasta clique com botão direito do mouse e clique em Git Bash Here
+	- Será aberto o terminal do Git Bash, vamos digitar o comando para clonar a pasta do Repositorio, DIGITE:
+	 GIT CLONE (cole o link copiado)
+		obs: O terminal não aceita o comando CTRL + V para colar, temos que clicar com direito e colocar Paste ai vai colar o link. 
+	- Ao digitar o comando e dar ENTER vai copiar a pasta do Repositorio na sua maquina, agora podemos colocar dentro da pasta o que será compartilhado, lembrando que depois precisamos enviar os arquivos para o GIT/GITHUB.
+	- Para enviar o arquivo vamos dar o seguinte comandos
+	- Dentro da pasta do Repositorio na sua maquina, clique com botão direito do mouse e clique em Git Bash Here, vai abrir o terminal.
+	- Podemos dar o comando GIT STATUS para verificar as alterações
+	- Para atualizar damos o comando GIT ADD *
+	- Depois damos um COMMIT com comando GIT COMMIT -M "Digite o que foi alterado"
+	- Agora vamos enviar para GITHUB com comando GIT PUSH ORIGIN MAIN
+
+	- Apos o envio as alterações deverá aparecer no seu GITHUB.
+
+	 		
+
+	
